@@ -1,0 +1,83 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+table{
+    border-spacing: 2px;
+    border-collapse: separate;
+    margin: 100px auto;
+}
+.table-row{
+    cursor: pointer;
+}
+th, td{
+    background-color: #dfe6ed;
+    padding: 6px 12px;
+}
+th{
+    text-align: center;
+    font-weight: lighter;
+}
+td:last-child{
+    text-align: end;
+}
+td:nth-child(2){
+    text-align: center;
+    background-color: #edf8ff;
+}
+th:nth-child(2){
+    background-color: #edf8ff;
+}
+.diagram{
+    display: none; 
+}
+.diagram.active{
+    display: table-row;
+    height: 200px;
+}
+.diagram.active td{
+    padding: 0;
+}
+.highcharts-grid-line{
+    display: none;
+}
+.highcharts-xaxis-labels{
+    display: none;
+}
+.highcharts-yaxis-labels{
+    display: none;
+}
+.procent-grey{
+    color: #609e6c;
+    margin: 0 0 0 20px;
+    display:flex;
+    justify-content: flex-end;
+}
+.procent-green{
+    color: #609e6c;
+    margin: 0 0 0 20px;
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.procent-red{
+    color: #ff5460;
+    margin: 0 0 0 20px;
+    display:flex;
+    justify-content: flex-end;
+}
+.value-2{
+    display: flex;
+    justify-content: space-between;
+}
+td.green{
+    background: #ecf7e7;
+}
+td.red{
+    
+    background: #fee6e6;
+}
